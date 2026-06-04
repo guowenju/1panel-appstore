@@ -1,0 +1,25 @@
+networks:
+  1panel-network:
+    external: true
+      
+services:
+    axo-drive:
+        container_name: ${CONTAINER_NAME}
+        deploy:
+            resources:
+                limits:
+                    cpus: ${CPUS}
+                    memory: ${MEMORY_LIMIT}
+        image: sfwwslm/axo-drive:0.1.2
+        labels:
+            createdBy: Apps
+        volumes:
+            - ./data:/app/.axo/storage
+        networks:
+            - 1panel-network
+        ports:
+          - ${HOST_IP}:${PANEL_APP_PORT_HTTP}:5005
+          - ${HOST_IP}:${PANEL_APP_PORT_HTTPS}:5006
+        environment:
+          - TZ=Asia/Shanghai
+        restart: always
