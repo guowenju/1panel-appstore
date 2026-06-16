@@ -1,0 +1,18 @@
+additionalProperties:
+  formFields:
+    - default: 9990
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: HTTP 端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: 9991
+      edit: true
+      envKey: PANEL_APP_PORT_HTTPS
+      labelEn: Port
+      labelZh: HTTPS 端口
+      required: true
+      rule: paramPort
+      type: number
