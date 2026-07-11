@@ -1,6 +1,6 @@
 # Navix Server
 
-为 [Navix](https://github.com/sfwwslm/navix) 应用提供后端支持的核心服务。它负责处理用户认证、数据同步以及其他关键的业务逻辑。
+为 [Navix](https://github.com/guowenju/navix) 应用提供后端支持的核心服务。它负责处理用户认证、数据同步以及其他关键的业务逻辑。
 
 ## 主要功能
 

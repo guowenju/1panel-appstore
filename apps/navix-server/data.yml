@@ -8,6 +8,6 @@ additionalProperties:
   type: tool
   crossVersionUpdate: true
   limit: 1
-  website: https://github.com/sfwwslm/navix
-  github: https://github.com/sfwwslm/navix
+  website: https://github.com/guowenju/navix
+  github: https://github.com/guowenju/navix
   document:
