@@ -10,7 +10,7 @@ services:
                 limits:
                     cpus: ${CPUS}
                     memory: ${MEMORY_LIMIT}
-        image: guowenju/navix-server:0.2.3
+        image: guowenju/navix-server:0.2.4
         labels:
             createdBy: Apps
         volumes:
