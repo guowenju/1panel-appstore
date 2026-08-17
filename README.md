@@ -5,5 +5,5 @@
 ## 使用说明
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/sfwwslm/1panel-appstore/refs/heads/main/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/guowenju/1panel-appstore/refs/heads/main/install.sh | sudo bash
 ```
