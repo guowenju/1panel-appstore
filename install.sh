@@ -2,7 +2,7 @@
 set -e
 
 # ===== 配置 =====
-REPO_URL="https://github.com/sfwwslm/1panel-appstore.git"
+REPO_URL="https://github.com/guowenju/1panel-appstore.git"
 TMP_DIR="/tmp/1panel-appstore"
 TARGET_DIR="/opt/1panel/resource/apps/local"
 
